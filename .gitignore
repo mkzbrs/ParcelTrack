@@ -1,0 +1,14 @@
+# Secrets and local settings (policy P4: nothing secret in Git)
+.env
+
+# Uploaded photos and logs stay on the server, not in Git
+storage/uploads/*
+storage/logs/*
+!storage/uploads/.gitkeep
+!storage/logs/.gitkeep
+
+# Editor and system files
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+*.log

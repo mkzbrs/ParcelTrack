@@ -1,0 +1,9 @@
+body { background: #f7f5ef; color: #2f3a4a; }
+.pt-nav { background: #1b2a41; }
+.card { border-color: #e2ded3; border-radius: 12px; }
+.pt-stat { font-size: 2.2rem; font-weight: 700; color: #1b2a41; }
+.pt-badge-Registered { background: #6c757d; }
+.pt-badge-Assigned { background: #0d6efd; }
+.pt-badge-Out-for-Delivery { background: #e0a526; color: #1b2a41; }
+.pt-badge-Delivered { background: #1f6e69; }
+.pt-badge-Failed { background: #b3261e; }
